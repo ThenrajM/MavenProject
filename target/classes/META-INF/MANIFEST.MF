@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: kumar
-Build-Jdk: 17.0.3
+Build-Jdk: 15.0.2
 Implementation-Title: Eureka-Server
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.netz.eurekaApplication
