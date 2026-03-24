@@ -1,0 +1,24 @@
+server:
+  port: 5003
+  
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+            
+logging:
+  level:
+    com:
+      netflix:
+        discovery: 'OFF'
+        eureka: 'OFF'
+
+spring:
+  application:
+    name: eureka-service
