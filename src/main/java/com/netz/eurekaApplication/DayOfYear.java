@@ -16,7 +16,6 @@ public class DayOfYear
 	}
 	public String monthFirst(String tDate)
 	{
-	{
 		int cYear=Integer.parseInt(tDate.substring(0,4));
 		int cMnth=Integer.parseInt(tDate.substring(4,6));
 		int cDay=Integer.parseInt(tDate.substring(6,8));
